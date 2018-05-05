@@ -1,0 +1,573 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="utf-8">
+    <title>proyecto</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+
+    <link href="assets/icons/fontawesome/web-fonts-with-css/css/fontawesome-all.min.css" rel="stylesheet" type="text/css">
+    <!-- <link rel="stylesheet" href="./vendors/bootstrap/css/bootstrap.min.css"> -->
+    <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
+    <link href="https://fonts.googleapis.com/css?family=Titan+One" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css?family=Anton|Titan+One" rel="stylesheet">
+    <link rel="stylesheet" href="./css/main.css">
+    <link rel="stylesheet" href="./css/main2.css">
+    <link rel="stylesheet" href="./css/probar.css">
+    <link rel="stylesheet" href="./css/cotizacion.css">
+
+  </head>
+
+  <body>
+    <title>Home</title>
+    <div id="wrapper">
+           <div class="overlay"></div>
+
+           <!-- Sidebar -->
+           <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
+            <ul class="nav sidebar-nav">
+                <li class="sidebar-brand">
+                    <a href="#">
+
+                    </a>
+                </li>
+                <li>
+                    <a href="cotizacion.html"><b>Cotización</b></a>
+                </li>
+                <li>
+                    <a href="pedido.html"><b>Alquiler</b></a>
+                </li>
+                <li>
+                    <a href="pago.html"><b>Pago</b></a>
+                </li>
+                <li>
+                    <a href="nuevo-producto.html"><b>Almacen</b></a>
+                </li>
+
+                <li>
+                    <a href="#"><b>Administración</b></a>
+                </li>
+                <li>
+                    <a href="#"><b>Informes</b></a>
+                </li>
+                <li>
+                    <a href="#"><b>Salir</b></a>
+                </li>
+
+            </ul>
+        </nav>
+           <!-- /#sidebar-wrapper -->
+
+           <!-- Page Content -->
+           <div id="page-content-wrapper">
+               <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
+                   <span class="hamb-top"></span>
+       			<span class="hamb-middle"></span>
+   				<span class="hamb-bottom"></span>
+               </button>
+               <div class="container">
+                   <div class="row">
+                     <div class="container">
+                       <div class="container-fluid">
+                         <div class="row centered-form">
+
+                           <div class="col-xs-12 col-sm-12 col-md-12">
+                             <section class="section-1" action="index.html" method="post">
+
+                               <nav class="navbar navbar-default principal  " role="navigation">
+
+
+
+                               <div class="collapse navbar-collapse navbar-ex1-collapse ">
+                               <ul class="nav justify-content-center nav-justified ">
+                               <li class="nav-item ">
+                                 <a class="nav-link active main-color" href="cotizacion.html">
+                                   <p class="estilos">persona natural</p>
+                                   <i class="fa fa-users"></i>
+                                 </a>
+                               </li>
+                               <li class="nav-item menu">
+                                 <a class="nav-link" href="cotizacion-Pj.html">
+                                     <p class="estilos">persona Juridica</p>
+                                   <i class="fa fa-building"></i>
+                                 </a>
+                               </li>
+                               <li class="nav-item menu">
+                                 <a class="nav-link" href="informe-cotizacion.html">
+
+
+                                     <p class="estilos">Informes</p>
+                                   <i class="fa fa-list-alt"></i>
+                                 </a>
+                               </li>
+
+                               </ul>
+                               </div>
+                               </nav>
+                               <p class="center letter-white"><b>Cotizacion-Persona Juridica</b></p>
+                               <div  class="col-xs-12 col-md-4 center estilos ">
+                                 <label for="">N°deCotización:</label>
+                                 <input type="text" name="" value="">
+                               </div>
+
+                               <div class="col-md-4 center estilos">
+                                 <label for="" >fecha:</label>
+                                 <input type="date" name="" value="">
+                               </div>
+
+
+
+                               <div  class="col-xs-12 col-md-4 center estilos ">
+                                     <label for="" class="col-md-6 ">recepcionista:</label>
+                                 <!-- <input type="text" name="" value=""> -->
+                                 <select class=" col-md-6">
+                                   <option value="r1">sara</option>
+                                   <option value="r2"></option>
+
+                                 </select>
+                               </div>
+
+                             </section>
+                             <div class="panel panel-default">
+
+
+                               <div class="panel-body form-cotizacion">
+                                 <form role="form">
+                                   <!-- <div class="row"> -->
+
+
+
+                                     <div class="col-xs-6 col-sm-6 col-md-6">
+                                       <div class="form-group">
+                                         <label class="control-label titulo">RUC :</label>
+                                         <input type="text" class="form-control" id="RUC" name="RUC" placeholder="Ingrese el RUC">
+                                     </div>
+                                       </div>
+
+                                     <div class="col-xs-6 col-sm-6 col-md-6">
+                                       <div class="form-group">
+                                         <label  class="control-label titulo">Nombre :</label>
+                                         <input type="text" class="form-control" id="NameCliente" name="NameCliente" placeholder="Ingrese el nombre del cliente">
+                                       </div>
+                                     </div>
+                                     <div class="col-xs-6 col-sm-6 col-md-6">
+                                       <div class="form-group">
+                                         <label  class="control-label titulo">PáginaWeb:</label>
+                                         <input type="text" class="form-control" id="Página-Web" name="PaginaWeb" placeholder="Ingrese la pagina web">
+                                       </div>
+                                     </div>
+                                     <div class="col-xs-6 col-sm-6 col-md-6">
+                                       <div class="form-group">
+                                         <label  class="control-label titulo">Domicilio Fiscal:</label>
+                                         <input type="text" class="form-control" id="DomicilioId" name="DomicilioId" placeholder="Ingrese el domicilio">
+                                       </div>
+                                     </div>
+
+                                     <div class="col-xs-6 col-sm-6 col-md-6">
+                                       <div class="form-group">
+                                         <label  class="control-label titulo">N°trabajadores:</label>
+                                         <input type="text" class="form-control" id="NumeroTrabajadores" name="NumeroTrabajadores" placeholder="Ingrese Número de trabajadores">
+                                     </div>
+                                     </div>
+                                     <div class="col-xs-6 col-sm-6 col-md-6">
+                                       <div class="form-group">
+                                         <label  class="control-label titulo"> Referencias:</label>
+                                         <input type="text" class="form-control" id="Referencias" name="Referencias" placeholder="Ingrese referencias">
+                                     </div>
+                                     </div>
+
+                                     <div class="col-xs-6 col-sm-6 col-md-6">
+                                       <div class="form-group">
+                                         <div class="form-group"> <!-- contactos-->
+                                             <label  class="control-label titulo Center">Contactos:</label>
+                                         </div>
+                                       </div>
+                                     </div>
+
+
+
+                                                             <!-- <div class="container"> -->
+                                                               <!-- <div class="container-fluid"> -->
+
+
+                                                              <div class="row">
+                                                                            <div class="col-md-12">
+                                                                             <!-- Nav tabs --><div class="card" >
+                                                                             <ul class="nav nav-tabs tab-general" role="tablist" >
+                                                                                 <li role="presentation" class="active"><a href="#Contacto1" aria-controls="Contacto1" role="tab" data-toggle="tab"  class="tab-contactos">Contacto 1</a></li>
+                                                                                 <li role="presentation"><a href="#Contacto2" aria-controls="Contacto2" role="tab" data-toggle="tab"  class="tab-contactos">Contacto 2</a></li>
+                                                                                 <li role="presentation"><a href="#Contacto3" aria-controls="Contacto3" role="tab" data-toggle="tab"  class="tab-contactos">Contacto 3</a></li>
+                                                                                 <li role="presentation"><a href="#Contacto4" aria-controls="Contacto4" role="tab" data-toggle="tab"  class="tab-contactos">Contacto 4</a></li>
+                                                                             </ul>
+
+                                                                             <!-- Tab panes -->
+                                                                             <div class="tab-content">
+                                                                                 <div role="tabpanel" class="tab-pane active" id="Contacto1">
+                                                                                   <div class="panel-body sec-contactos">
+                                                                                     <form role="form">
+                                                                                       <div class="row">
+                                                                                           <p class="center"><b>contacto 1</b></p>
+                                                                                         <div class="col-xs-6 col-sm-6 col-md-6">
+                                                                                           <div class="form-group">
+                                                                                             <span class="text-center"><i class="fa fa-user-circle bigicon"></i></span>
+                                                                                             <input type="text" name="name_business" id="name_contact" class="form-control input-sm" placeholder="Nombres y apellidos">
+                                                                                           </div>
+                                                                                         </div>
+                                                                                         <div class="col-xs-6 col-sm-6 col-md-6">
+                                                                                           <div class="form-group">
+                                                                                             <span class="text-center"><i class="fa fa-birthday-cake bigicon"></i></span>
+                                                                                             <input type="text" name="bithday-contact" id="bithday-contact" class="form-control input-sm" placeholder="Cumpleaños">
+                                                                                           </div>
+                                                                                         </div>
+
+                                                                                         <div class="col-xs-6 col-sm-6 col-md-6">
+                                                                                         <div class="form-group">
+                                                                                           <span class=" text-center"><i class="fa fa-envelope-square bigicon"></i></span>
+                                                                                           <input type="text" name="email_contact" id="email_contact" class="form-control input-sm" placeholder=" Email , correo electronico.">
+                                                                                         </div>
+                                                                                         </div>
+
+                                                                                         <div class="col-xs-6 col-sm-6 col-md-6">
+                                                                                         <div class="form-group">
+                                                                                           <span class="text-center"><i class="fa fa-phone-square bigicon"></i></span>
+                                                                                           <input type="text" name="phone-contact" id="phone-contact" class="form-control input-sm" placeholder=" telefono o celular">
+                                                                                         </div>
+                                                                                         </div>
+                                                                                       </div>
+
+                                                                                       <div class="row">
+                                                                                         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                                                                           <div class="form-group">
+                                                                                             <span class=" text-center"><i class="fa fa-male bigicon"></i></span>
+                                                                                             <input type="cargo" name="cargo" id="cargo-contact" class="form-control input-sm" placeholder="Cargo que ocupa">
+
+                                                                                           </div>
+                                                                                         </div>
+                 <!--
+
+                                                                                         <button type="submit" value="save" class="btn btn-warning col-xs-10 col-sm-10 col-md-6" id="btn_contact"
+                                                                                           disabled>Guardar</button>
+                                                                                         </div> -->
+                                                                                         <div class="col-xs-6 col-sm-6 col-md-6">
+                                                                                         <div class="form-group">
+                                                                                           <span class="text-center"><i class="fa fa-comments bigicon"></i></span>
+                                                                                           <input type="text" name="comment-contact" id="comment-contact" class="form-control input-sm" placeholder=" Comentario">
+                                                                                         </div>
+                                                                                         </div>
+
+                                                                                         <div class="form-group">
+                                                                                             <div class="col-md-12 text-center">
+                                                                                                 <button type="submit" class="btn btn-warning">Guardar</button>
+                                                                                             </div>
+                                                                                         </div>
+
+
+                                                                                       </div>
+                                                                                     </form>
+                                                                                   </div>
+                                                                                 </div>
+                                                                                 <div role="tabpanel" class="tab-pane" id="Contacto2">
+                                                                                   <div class="panel-body sec-contactos">
+                                                                                     <form role="form">
+                                                                                       <div class="row">
+                                                                                         <p class="center"><b>contacto 2</b></p>
+                                                                                         <div class="col-xs-6 col-sm-6 col-md-6">
+                                                                                           <div class="form-group">
+                                                                                             <span class="text-center"><i class="fa fa-user-circle bigicon"></i></span>
+                                                                                             <input type="text" name="name_business" id="name_contact" class="form-control input-sm" placeholder="Nombres y apellidos">
+                                                                                           </div>
+                                                                                         </div>
+                                                                                         <div class="col-xs-6 col-sm-6 col-md-6">
+                                                                                           <div class="form-group">
+                                                                                             <span class="text-center"><i class="fa fa-birthday-cake bigicon"></i></span>
+                                                                                             <input type="text" name="bithday-contact" id="bithday-contact" class="form-control input-sm" placeholder="Cumpleaños">
+                                                                                           </div>
+                                                                                         </div>
+
+                                                                                         <div class="col-xs-6 col-sm-6 col-md-6">
+                                                                                         <div class="form-group">
+                                                                                           <span class=" text-center"><i class="fa fa-envelope-square bigicon"></i></span>
+                                                                                           <input type="text" name="email_contact" id="email_contact" class="form-control input-sm" placeholder=" Email , correo electronico.">
+                                                                                         </div>
+                                                                                         </div>
+
+                                                                                         <div class="col-xs-6 col-sm-6 col-md-6">
+                                                                                         <div class="form-group">
+                                                                                           <span class="text-center"><i class="fa fa-phone-square bigicon"></i></span>
+                                                                                           <input type="text" name="phone-contact" id="phone-contact" class="form-control input-sm" placeholder=" telefono o celular">
+                                                                                         </div>
+                                                                                         </div>
+                                                                                       </div>
+
+                                                                                       <div class="row">
+                                                                                         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                                                                           <div class="form-group">
+                                                                                             <span class=" text-center"><i class="fa fa-male bigicon"></i></span>
+                                                                                             <input type="cargo" name="cargo" id="cargo-contact" class="form-control input-sm" placeholder="Cargo que ocupa">
+
+                                                                                           </div>
+                                                                                         </div>
+
+                                                                                         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                                                                         <button type="submit" value="save" class="btn btn-warning   col-xs-12 col-sm-12 col-md-6 " id="btn_contact"
+                                                                                           disabled>Guardar</button>
+                                                                                         </div>
+                                                                                       </div>
+                                                                                     </form>
+                                                                                   </div>
+                                                                                 </div>
+                                                                                 <div role="tabpanel" class="tab-pane" id="Contacto3">
+                                                                                   <div class="panel-body sec-contactos">
+                                                                                     <form role="form">
+                                                                                       <div class="row">
+                                                                                         <p class="center"><b>contacto 3</b></p>
+                                                                                         <div class="col-xs-6 col-sm-6 col-md-6">
+                                                                                           <div class="form-group">
+                                                                                             <span class="text-center"><i class="fa fa-user-circle bigicon"></i></span>
+                                                                                             <input type="text" name="name_business" id="name_contact" class="form-control input-sm" placeholder="Nombres y apellidos">
+                                                                                           </div>
+                                                                                         </div>
+                                                                                         <div class="col-xs-6 col-sm-6 col-md-6">
+                                                                                           <div class="form-group">
+                                                                                             <span class="text-center"><i class="fa fa-birthday-cake bigicon"></i></span>
+                                                                                             <input type="text" name="bithday-contact" id="bithday-contact" class="form-control input-sm" placeholder="Cumpleaños">
+                                                                                           </div>
+                                                                                         </div>
+
+                                                                                         <div class="col-xs-6 col-sm-6 col-md-6">
+                                                                                         <div class="form-group">
+                                                                                           <span class=" text-center"><i class="fa fa-envelope-square bigicon"></i></span>
+                                                                                           <input type="text" name="email_contact" id="email_contact" class="form-control input-sm" placeholder=" Email , correo electronico.">
+                                                                                         </div>
+                                                                                         </div>
+
+                                                                                         <div class="col-xs-6 col-sm-6 col-md-6">
+                                                                                         <div class="form-group">
+                                                                                           <span class="text-center"><i class="fa fa-phone-square bigicon"></i></span>
+                                                                                           <input type="text" name="phone-contact" id="phone-contact" class="form-control input-sm" placeholder=" telefono o celular">
+                                                                                         </div>
+                                                                                         </div>
+                                                                                       </div>
+
+                                                                                       <div class="row">
+                                                                                         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                                                                           <div class="form-group">
+                                                                                             <span class=" text-center"><i class="fa fa-male bigicon"></i></span>
+                                                                                             <input type="cargo" name="cargo" id="cargo-contact" class="form-control input-sm" placeholder="Cargo que ocupa">
+
+                                                                                           </div>
+                                                                                         </div>
+
+                                                                                         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                                                                         <button type="submit" value="save" class="btn btn-warning  col-xs-12 col-sm-12 col-md-6 " id="btn_contact"
+                                                                                           disabled>Guardar</button>
+                                                                                         </div>
+                                                                                       </div>
+                                                                                     </form>
+                                                                                   </div>
+                                                                                   </div>
+                                                                                 <div role="tabpanel" class="tab-pane" id="Contacto4">
+
+                                                                                   <div class="panel-body sec-contactos">
+                                                                                     <form role="form">
+                                                                                       <div class="row">
+                                                                                         <p class="center"><b>contacto 4</b></p>
+                                                                                         <div class="col-xs-6 col-sm-6 col-md-6">
+                                                                                           <div class="form-group">
+                                                                                             <span class="text-center"><i class="fa fa-user-circle bigicon"></i></span>
+                                                                                             <input type="text" name="name_business" id="name_contact" class="form-control input-sm" placeholder="Nombres y apellidos">
+                                                                                           </div>
+                                                                                         </div>
+                                                                                         <div class="col-xs-6 col-sm-6 col-md-6">
+                                                                                           <div class="form-group">
+                                                                                             <span class="text-center"><i class="fa fa-birthday-cake bigicon"></i></span>
+                                                                                             <input type="text" name="bithday-contact" id="bithday-contact" class="form-control input-sm" placeholder="Cumpleaños">
+                                                                                           </div>
+                                                                                         </div>
+
+                                                                                         <div class="col-xs-6 col-sm-6 col-md-6">
+                                                                                         <div class="form-group">
+                                                                                           <span class=" text-center"><i class="fa fa-envelope-square bigicon"></i></span>
+                                                                                           <input type="text" name="email_contact" id="email_contact" class="form-control input-sm" placeholder=" Email , correo electronico.">
+                                                                                         </div>
+                                                                                         </div>
+
+                                                                                         <div class="col-xs-6 col-sm-6 col-md-6">
+                                                                                         <div class="form-group">
+                                                                                           <span class="text-center"><i class="fa fa-phone-square bigicon"></i></span>
+                                                                                           <input type="text" name="phone-contact" id="phone-contact" class="form-control input-sm" placeholder=" telefono o celular">
+                                                                                         </div>
+                                                                                         </div>
+                                                                                       </div>
+
+                                                                                       <div class="row">
+                                                                                         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                                                                           <div class="form-group">
+                                                                                             <span class=" text-center"><i class="fa fa-male bigicon"></i></span>
+                                                                                             <input type="cargo" name="cargo" id="cargo-contact" class="form-control input-sm" placeholder="Cargo que ocupa">
+
+                                                                                           </div>
+                                                                                         </div>
+
+                                                                                         <div class="col-xs-6 col-sm-6 col-md-6 col-lg-6">
+                                                                                         <button type="submit" value="save" class="btn btn-warning  col-xs-12 col-sm-12 col-md-6 " id="btn_contact"
+                                                                                           disabled>Guardar</button>
+                                                                                         </div>
+                                                                                       </div>
+                                                                                     </form>
+                                                                                   </div>
+                                                                                 </div>
+                                                                             </div>
+                                                                           </div>
+                                                                         </div>
+                                                                         </div>
+
+
+
+                                                                         <!-- <hr>
+                                                                         <div class="container-fluid">
+                                                                           <div class="row">
+
+                                                                       <table class="table table-bordered letra">
+                                                                       <tr class="titulo-tabla">
+                                                                         <th class="center"></th>
+                                                                         <th class="center ">Producto</th>
+                                                                         <th class="center "><b>precio</b></th>
+                                                                         <th class="center "><b>Cantidad</b></th>
+                                                                         <th class="center "><b>Importe</b></th>
+                                                                       </tr>
+                                                                       <tr>
+                                                                         <td>1</td>
+                                                                         <td>andamio </td>
+                                                                         <td>5.50</td>
+                                                                         <td>10</td>
+                                                                         <td>550</td>
+                                                                       </tr>
+                                                                       <tr>
+                                                                         <td>2</td>
+                                                                         <td>fierro de acero</td>
+                                                                         <td>10.00</td>
+                                                                         <td>20</td>
+                                                                         <td>2000</td>
+                                                                       </tr>
+                                                                       <tr>
+                                                                         <td>3</td>
+                                                                         <td>andamio </td>
+                                                                         <td>5.50</td>
+                                                                         <td>10</td>
+                                                                         <td>550</td>
+                                                                       </tr>
+
+                                                                     </table>
+                                                                   </div>
+                                                                 </div> -->
+
+                                                                 <div id="table" class="table-editable">
+
+                                                                   <table class="table">
+                                                                     <tr>
+                                                                       <th>#</th>
+                                                                       <th>producto</th>
+                                                                       <th>precio</th>
+                                                                       <th>cantidad</th>
+                                                                       <th>importe</th>
+                                                                     </tr>
+                                                                     <tr>
+                                                                       <td contenteditable="true"></td>
+                                                                       <td contenteditable="true"></td>
+                                                                       <td contenteditable="true"></td>
+                                                                       <td contenteditable="true"></td>
+                                                                        <td contenteditable="true"></td>
+                                                                       <td>
+                                                                         <span class="table-remove glyphicon glyphicon-remove"></span>
+                                                                       </td>
+                                                                       <td>   <span class="table-add glyphicon glyphicon-plus"></span></td>
+
+                                                                     </tr>
+                                                                     <!-- This is our clonable table line -->
+                                                                     <tr class="hide">
+                                                                       <td contenteditable="true"></td>
+                                                                       <td contenteditable="true"></td>
+                                                                       <td contenteditable="true"></td>
+                                                                       <td contenteditable="true"></td>
+                                                                       <td contenteditable="true"></td>
+                                                                       <td>
+                                                                         <span class="table-remove glyphicon glyphicon-remove"></span>
+                                                                       </td>
+                                                                       <td>
+                                                                          <span class="table-add glyphicon glyphicon-plus">
+                                                                       </td>
+                                                                     </tr>
+                                                                   </table>
+                                                                 </div>
+
+                                                                 <div class="col-md-12">
+                                                                   <!-- <button type="button" class="btn btn-warning col-md-3 btn">Nuevo</button>
+                                                                   <button type="button" class="btn btn-warning col-md-3 btn">Guardar</button> -->
+                                                                   <div class="col-md-3 btn">  </div>
+                                                                   <div class="col-md-3 btn">  </div>
+
+                                                                   <div class="col-md-5 item">
+                                                                     <label for="" class="col-md-3">Total</label>
+                                                                     <input type="text" name="" value="" >
+
+                                                                   </div>
+                                                             </div>
+
+
+
+
+
+
+                                           <div class="row">
+
+                                           <div class="form-group">
+                                               <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
+                                               <div class="col-md-12">
+                                                   <label  class="control-label titulo Center">Observaciones</label>
+                                                   <textarea class="form-control" id="message" name="message" placeholder="Observaciones" rows="7"></textarea>
+                                               </div>
+                                           </div>
+                                           </div>
+
+                                           <div class="form-group">
+                                               <div class="col-md-12 text-center">
+                                                   <button type="submit" class="btn btn-primary btn-lg">Guardar</button>
+                                               </div>
+                                           </div>
+
+
+
+                                       </div>
+                                     </form>
+                                     </div>
+
+
+
+
+                 </div>
+                 </div>
+                 </div>
+                 </div>
+
+                   </div>
+               </div>
+           </div>
+           <!-- /#page-content-wrapper -->
+
+       </div>
+
+
+
+
+
+<script type="text/javascript" src="https://code.jquery.com/jquery-3.2.1.min.js"></script>
+ <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb"
+   crossorigin="anonymous"></script>
+  <script src="./vendors\jquery\jquery-3.2.1.min.js"></script>
+  <script src="bootstrap-3.3.7-dist\js\bootstrap.min.js"></script>
+  <script src="js/main.js"></script>
+  <script src="js/cotizacion.js"></script>
+
+  </script>
+  </body>
+</html>
