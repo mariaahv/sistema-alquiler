@@ -11,6 +11,7 @@
     <link rel="stylesheet" href="bootstrap-3.3.7-dist/css/bootstrap.min.css">
     <link href="https://fonts.googleapis.com/css?family=Titan+One" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Anton|Titan+One" rel="stylesheet">
+<link href="https://fonts.googleapis.com/css?family=Alegreya+Sans+SC|Black+Han+Sans|Josefin+Sans|Noto+Sans|Poppins" rel="stylesheet">
     <link rel="stylesheet" href="./css/probar.css">
     <link rel="stylesheet" href="./css/main.css">
     <link rel="stylesheet" href="./css/cotizacion.css">
@@ -22,52 +23,60 @@
   </head>
   <body>
 
+    <nav class="navbar navbar-default principal menu-fixed " role="navigation">
 
-    <div id="wrapper">
-         <div class="overlay"></div>
 
-         <!-- Sidebar -->
-         <nav class="navbar navbar-inverse navbar-fixed-top" id="sidebar-wrapper" role="navigation">
-          <ul class="nav sidebar-nav">
-              <li class="sidebar-brand">
-                  <a href="#">
 
-                  </a>
-              </li>
-              <li>
-                  <a href="cotizacion.html"><b>Cotización</b></a>
-              </li>
-              <li>
-                  <a href="pedido.html"><b>Alquiler</b></a>
-              </li>
-              <li>
-                  <a href="pago.html"><b>Pago</b></a>
-              </li>
-              <li>
-                  <a href="nuevo-producto.html"><b>Almacen</b></a>
-              </li>
+    <div class="collapse navbar-collapse navbar-ex1-collapse ">
+    <ul class="nav justify-content-center nav-justified ">
+      <li class="nav-item menu">
+        <a class="nav-link" href="informe-cotizacion.html">
+            <p class="estilos">Clientes</p>
+    <i class="fa fa-users bigicon"></i>
+        </a>
+      </li>
+      <li class="nav-item menu">
+        <a class="nav-link" href="informe-cotizacion.html">
+            <p class="estilos">Inmuebles</p>
+          <i class="fa fa-building bigicon"></i>
+        </a>
+      </li>
+    <li class="nav-item ">
+      <a class="nav-link active main-color" href="cotizacion.html">
+        <p class="estilos">Mantenimiento</p>
+        <i class="fa fa-users bigicon"></i>
+      </a>
+    </li>
+    <li class="nav-item menu">
+      <a class="nav-link" href="cotizacion-Pj.html">
+          <p class="estilos">transacciones</p>
+      <i class="fa fa-american-sign-language-interpreting bigicon"></i>
+      </a>
+    </li>
+    <li class="nav-item menu">
+      <a class="nav-link" href="informe-cotizacion.html">
+          <p class="estilos">Reportes</p>
+        <i class="fa fa-list-alt bigicon"></i>
+      </a>
+    </li>
 
-              <li>
-                  <a href="#"><b>Administración</b></a>
-              </li>
-              <li>
-                  <a href="#"><b>Informes</b></a>
-              </li>
-              <li>
-                  <a href="#"><b>Salir</b></a>
-              </li>
 
-          </ul>
-      </nav>
+    </ul>
+    </div>
+    </nav>
+
+
+
+
+    <!-- <div id="wrapper">
+         <div class="overlay"></div> -->
+
+
+
          <!-- /#sidebar-wrapper -->
 
          <!-- Page Content -->
-         <div id="page-content-wrapper">
-             <button type="button" class="hamburger is-closed" data-toggle="offcanvas">
-                 <span class="hamb-top"></span>
-     			<span class="hamb-middle"></span>
- 				<span class="hamb-bottom"></span>
-             </button>
+
              <div class="container">
                  <div class="row">
                    <div class="container">
@@ -76,59 +85,67 @@
 
 
                          <div class="col-xs-12 col-sm-12 col-md-12">
+
                            <section class="section-1" action="index.html" method="post">
 
-                             <nav class="navbar navbar-default principal  " role="navigation">
 
 
 
-                             <div class="collapse navbar-collapse navbar-ex1-collapse ">
-                             <ul class="nav justify-content-center nav-justified ">
-                             <li class="nav-item ">
-                               <a class="nav-link active main-color" href="cotizacion.html">
-                                 <p class="estilos">persona natural</p>
-                                 <i class="fa fa-users"></i>
-                               </a>
-                             </li>
-                             <li class="nav-item menu">
-                               <a class="nav-link" href="cotizacion-Pj.html">
-                                   <p class="estilos">persona Juridica</p>
-                                 <i class="fa fa-building"></i>
-                               </a>
-                             </li>
-                             <li class="nav-item menu">
-                               <a class="nav-link" href="informe-cotizacion.html">
 
 
-                                   <p class="estilos">Informes</p>
-                                 <i class="fa fa-list-alt"></i>
-                               </a>
-                             </li>
+                             <div class="form-group">
+                                 <div class="col-md-12 ">
+                                   <div class="col-md-3 ">
+                                     <button type="submit" class="btn btn-primary btn-lg">Nuevo</button>
 
-                             </ul>
+
+                                 </div>
+                                 <div class="col-md-3 ">
+                                   <button type="submit" class="btn btn-primary btn-lg">Modificar</button>
+
+
+                               </div>
+                               <div class="col-md-3 ">
+                                <button type="submit" class="btn btn-primary btn-lg">Guardar</button>
+
+
                              </div>
-                             </nav>
-                               <p class="center letter-white"><b>Cotización-Persona Natural</b></p>
-                             <div  class="col-xs-12 col-md-4 center estilos ">
-                               <label for="">N°deCotización:</label>
-                               <input type="text" name="" value="">
-                             </div>
+                             <div class="col-md-3 ">
+                               <button type="submit" class="btn btn-primary btn-lg">Cancelar</button>
 
-                             <div class="col-md-4 center estilos">
-                               <label for="" >fecha:</label>
+
+                           </div>
+
+
+                            </div>
+                           </div>
+
+
+
+                           </section>
+                           <section class="section-2" action="index.html" method="post">
+
+
+
+                             <div class="col-md-4 center ">
+                               <label for="" >Fecha:</label>
                                <input type="date" name="" value="">
                              </div>
 
 
 
-                             <div  class="col-xs-12 col-md-4 center estilos ">
-                                   <label for="" class="col-md-6 ">recepcionista:</label>
+                             <div  class="col-xs-12 col-md-4 center  ">
+                                   <label for="" class="col-md-6 ">recepcionist</label>
                                <!-- <input type="text" name="" value=""> -->
                                <select class=" col-md-6">
                                  <option value="r1">sara</option>
                                  <option value="r2"></option>
 
                                </select>
+                             </div>
+                             <div class="col-md-4 center ">
+                               <!-- <label for="" >fecha:</label> -->
+                               <input type="input" name="" value="" placeholder="N° de cotización">
                              </div>
 
                            </section>
@@ -138,68 +155,162 @@
                              <div class="panel-body form-cotizacion">
                                <form role="form">
                                  <!-- <div class="row"> -->
-                                 <div class="col-md-8">
-                                   <div class="col-xs-6 col-sm-6 col-md-6">
+                                 <div class="col-md-12">
+                                   <div class="col-xs-6 col-sm-6 col-md-8">
                                      <div class="form-group">
-                                       <label class="control-label titulo">RUC :</label>
-                                       <input type="text" class="form-control" id="RUC" name="RUC" placeholder="Ingrese el RUC">
+                                       <label class="control-label titulo">Nombres y Ap :</label>
+                                       <input type="text" class="form-control" id="RUC" name="RUC" >
                                    </div>
                                      </div>
 
-                                   <div class="col-xs-6 col-sm-6 col-md-6">
+                                   <div class="col-xs-6 col-sm-6 col-md-4">
                                      <div class="form-group">
-                                       <label  class="control-label titulo">Nombre :</label>
-                                       <input type="text" class="form-control" id="NameCliente" name="NameCliente" placeholder="Ingrese el nombre del cliente">
+                                       <label  class="control-label titulo">DNI:</label>
+                                       <input type="text" class="form-control" id="NameCliente" name="NameCliente" >
                                      </div>
+                                   </div>
+                                   <div  class="col-xs-12 col-md-4   ">
+                                        <div class="form-group">
+                                         <label for="" class="col-md-12 ">Estado Civil:</label>
+                                     <!-- <input type="text" name="" value=""> -->
+                                     <select class="col-md-12 ">
+                                       <option value="">soltero</option>
+                                       <option value="">casado</option>
+                                       <option value="">divorciado</option>
+
+                                     </select>
+
+
+                                     </div>
+                                     </div>
+                                   <div class="col-xs-6 col-sm-6 col-md-8">
+                                     <div class="form-group">
+                                       <label  class="control-label titulo">Ocupación:</label>
+                                       <input type="text" class="form-control" id="Página-Web" name="PaginaWeb" >
+                                     </div>
+                                   </div>
+                                   <div class="col-xs-6 col-sm-6 col-md-8">
+                                     <div class="form-group">
+                                       <label  class="control-label titulo">Nombre del Cónyuge:</label>
+                                       <input type="text" class="form-control" id="DomicilioId" name="DomicilioId" >
+                                     </div>
+                                   </div>
+                                   <div class="col-xs-6 col-sm-6 col-md-4">
+                                     <div class="form-group">
+                                       <label  class="control-label titulo">DNI:</label>
+                                       <input type="text" class="form-control" id="NumeroTrabajadores" name="NumeroTrabajadores" >
+                                   </div>
                                    </div>
                                    <div class="col-xs-6 col-sm-6 col-md-6">
                                      <div class="form-group">
-                                       <label  class="control-label titulo">Correo:</label>
-                                       <input type="text" class="form-control" id="Página-Web" name="PaginaWeb" placeholder="Ingrese la pagina web">
-                                     </div>
+                                       <label  class="control-label titulo">Ocupacion Cónyuge:</label>
+                                       <input type="text" class="form-control" id="NumeroTrabajadores" name="NumeroTrabajadores" >
                                    </div>
-                                   <div class="col-xs-6 col-sm-6 col-md-6">
+                                   </div>
+                                   <div class="col-xs-6 col-sm-4 col-md-2">
                                      <div class="form-group">
-                                       <label  class="control-label titulo">Domicilio:</label>
-                                       <input type="text" class="form-control" id="DomicilioId" name="DomicilioId" placeholder="Ingrese el domicilio">
-                                     </div>
+
+                                       <form class="col-md-6">
+                                    <input type="radio" name="gender" value="male" checked> Garante<br>
+                                    <input type="radio" name="gender" value="female"> Aval<br>
+                                    <input type="radio" name="gender" value="other"> Otro
+                                  </form>
+                                   </div>
+                                   </div>
+
+                                   <div class="col-xs-6 col-sm-6 col-md-4">
+                                     <div class="form-group">
+                                       <label  class="control-label titulo"> Distrito:</label>
+                                       <select >
+                                        <option value="volvo">miraflores</option>
+                                        <option value="saab">Spp</option>
+                                        <option value="mercedes">carabayllo</option>
+                                        <option value="audi">Audi</option>
+                                      </select>
+                                   </div>
                                    </div>
 
                                    <div class="col-xs-6 col-sm-6 col-md-6">
                                      <div class="form-group">
-                                       <label  class="control-label titulo">Telefono:</label>
-                                       <input type="text" class="form-control" id="NumeroTrabajadores" name="NumeroTrabajadores" placeholder="Ingrese Número de trabajadores">
+                                       <label  class="control-label titulo">domicilio:</label>
+                                       <input type="text" class="form-control" id="NumeroTrabajadores" name="NumeroTrabajadores">
                                    </div>
                                    </div>
+
+
+
                                    <div class="col-xs-6 col-sm-6 col-md-6">
                                      <div class="form-group">
-                                       <label  class="control-label titulo"> Referencias:</label>
-                                       <input type="text" class="form-control" id="NumeroTrabajadores" name="NumeroTrabajadores" placeholder="Ingrese Número de trabajadores">
+                                       <label  class="control-label titulo"> Correo electrónico:</label>
+                                       <input type="text" class="form-control" id="NumeroTrabajadores" name="NumeroTrabajadores" >
                                    </div>
                                    </div>
+                                   <div class="col-xs-6 col-sm-6 col-md-4">
+                                     <div class="form-group">
+                                       <label  class="control-label titulo"> Celular:</label>
+                                       <input type="text" class="form-control" id="NumeroTrabajadores" name="NumeroTrabajadores" >
+                                   </div>
+                                   </div>
+                                   <div class="col-xs-6 col-sm-6 col-md-4">
+                                     <div class="form-group">
+                                       <label  class="control-label titulo"> Teléfono:</label>
+                                       <input type="text" class="form-control" id="NumeroTrabajadores" name="NumeroTrabajadores">
+                                   </div>
+                                   </div>
+
+                                   <div class="col-xs-6 col-sm-6 col-md-4">
+                                     <div class="form-group">
+                                       <label  class="control-label titulo"> Tipo de contrato:</label>
+                                       <select class="col-md-12">
+                                        <option value="volvo">Compra venta</option>
+                                        <option value="saab">preparatorio</option>
+                                        <option value="mercedes">Separacion</option>
+                                        <option value="audi">Audi</option>
+                                      </select>
+
+                                   </div>
+                                   </div>
+                                   <div class="col-xs-6 col-sm-6 col-md-8">
+                                     <div class="form-group">
+                                       <label  class="control-label titulo"> Lote:</label>
+                                       <input type="text" class="form-control" id="NumeroTrabajadores" name="NumeroTrabajadores">
+                                   </div>
+                                   </div>
+                                   <div class="col-xs-6 col-sm-6 col-md-4">
+                                     <div class="form-group">
+                                       <label  class="control-label titulo"> Precio lote:</label>
+                                       <input type="text" class="form-control" id="NumeroTrabajadores" name="NumeroTrabajadores" >
+                                   </div>
+                                   </div>
+
+                                   <div class="col-xs-6 col-sm-6 col-md-4">
+                                     <div class="form-group">
+                                       <label  class="control-label titulo"> Financiamiento inicial:</label>
+                                       <input type="text" class="form-control" id="NumeroTrabajadores" name="NumeroTrabajadores" >
+                                   </div>
+                                   </div>
+
+                                   <div class="col-xs-6 col-sm-6 col-md-4">
+                                     <div class="form-group">
+                                       <label  class="control-label titulo">cantidad de años :</label>
+                                       <input type="text" class="form-control" id="NumeroTrabajadores" name="NumeroTrabajadores" >
+                                   </div>
+                                   </div>
+                                   <div class="col-xs-6 col-sm-6 col-md-4">
+                                     <div class="form-group">
+                                       <label  class="control-label titulo">Tasa de financiamiento :</label>
+                                       <input type="text" class="form-control" id="NumeroTrabajadores" name="NumeroTrabajadores" >
+                                   </div>
+                                   </div>
+
+                                   <div class="col-md-12">
+                                       <label  class="control-label titulo Center">Observaciones</label>
+                                       <textarea class="form-control" id="message" name="message" placeholder="Observaciones" rows="7"></textarea>
+                                   </div>
+
                                  </div>
 
-                                   <div class="col-xs-12 col-sm-12 col-md-4 imagen-producto">
-                                     <section id="section-write-post ">
-                            <div class="container">
-                              <div class="row">
-                                <form class="col-md-6">
-                                  <div class="form-row ">
-                                      <div id="preview">
-                                        <!-- <textarea class="form-control textarea " id="post-text"></textarea> -->
-                                        <img src="#" alt="" id="dowload">
-                                      </div>
-                                      <div class=" col-xs-12 col-sm-12 col-md-10" >
 
-                                        <!-- <a href="#" id="file-select" class="btn btn-danger col-xs-3 col-sm-3 col-md-4">Elegir archivo</a> -->
-
-                                      </div>
-                                      <!-- <button class="btn btn-info col-xs-3 col-sm-3 col-md-3" id="file-info" disabled>No hay archivo aún</button> -->
-                                      <input id="file" name="file" type="file"/>
-                                      <button class="btn btn-danger  col-xs-3 col-sm-3 col-md-3" id="post" disabled>
-                                        Enviar
-                                      </button>
-                                    </div>
                                   </div>
                                 </form>
                               </div>
@@ -246,7 +357,7 @@
                                                                    </table>
                                                                  </div>
                                                                </div> -->
-
+<!--
                                                                <div id="table" class="table-editable">
 
                                                                  <table class="table">
@@ -269,7 +380,7 @@
                                                                      <td>   <span class="table-add glyphicon glyphicon-plus"></span></td>
 
                                                                    </tr>
-                                                                   <!-- This is our clonable table line -->
+
                                                                    <tr class="hide">
                                                                      <td contenteditable="true"></td>
                                                                      <td contenteditable="true"></td>
@@ -286,10 +397,10 @@
                                                                  </table>
                                                                </div>
 
-                                                               <div class="col-md-12">
+                                                               <div class="col-md-12"> -->
                                                                  <!-- <button type="button" class="btn btn-warning col-md-3 btn">Nuevo</button>
                                                                  <button type="button" class="btn btn-warning col-md-3 btn">Guardar</button> -->
-                                                                 <div class="col-md-3 btn">  </div>
+                                                                 <!-- <div class="col-md-3 btn">  </div>
                                                                  <div class="col-md-3 btn">  </div>
 
                                                                  <div class="col-md-5 item">
@@ -297,14 +408,14 @@
                                                                    <input type="text" name="" value="" >
 
                                                                  </div>
-                                                           </div>
+                                                           </div> -->
 
 
 
 
 
 
-                                         <div class="row">
+                                         <!-- <div class="row">
 
                                          <div class="form-group">
                                              <span class="col-md-1 col-md-offset-2 text-center"><i class="fa fa-pencil-square-o bigicon"></i></span>
@@ -313,7 +424,7 @@
                                                  <textarea class="form-control" id="message" name="message" placeholder="Observaciones" rows="7"></textarea>
                                              </div>
                                          </div>
-                                         </div>
+                                         </div> -->
 
                                          <div class="form-group">
                                              <div class="col-md-12 text-center">
@@ -330,7 +441,7 @@
                                </div>
                                </div>
                                </div>
-                 </div>
+                 <!-- </div> -->
              </div>
          </div>
          <!-- /#page-content-wrapper -->

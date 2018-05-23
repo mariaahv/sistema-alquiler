@@ -1,7 +1,15 @@
 body{
   /* background:#94799A; */
   background: #A4D6D0;
+  background: #BDDBF5  ;
+  background: #A3C7E7  ;
+  /* font-family: 'Noto Sans', sans-serif; */
 
+
+}
+
+.font{
+  font-family: 'Noto Sans', sans-serif;
 }
 
 
@@ -22,7 +30,9 @@ body{
 
 .bigicon {
     font-size: 25px;
-    color: #5EBDB2;
+    color: yellow;
+    color: #0B8AEE  ;
+    color: white;
 }
 
 /* .form-group{
@@ -38,7 +48,9 @@ body{
 }
 
 .titulo{
-  font-size: 20px;
+  font-size: 18px;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-weight: bolder;
 
 }
 .center{
@@ -60,7 +72,12 @@ body{
 .principal{
   margin: 0;
   padding:0;
-  background:#FFCF47;
+  /* background:#FFCF47; */
+    /* background: #AACEE5  ; */
+    background:#F6E1EA    ;
+    background: #BFF1F4  ;
+    background: #539FDC  ;
+    background: #7CB7E5  ;
   /* background: #A4D6D0; */
   /* font-family: 'Titan One', cursive; */
   /* font-family: 'Anton', sans-serif; */
@@ -76,7 +93,7 @@ body{
   padding:0;
   /* background:#FFC300; */
   /* font-family: 'Titan One', cursive; */
-  font-family: 'Anton', sans-serif;
+    font-family: 'Anton', sans-serif;
   color: black;
 
 }
@@ -89,19 +106,33 @@ font-weight: bold;
 }
 .section-1{
   /* background: #BDB0BF; */
-  background: #5EBDB2;
+  /* background: #5EBDB2; */
+
   padding: 40px;
   border-radius: 10px;
   margin: 5px;
-  margin-top: 7rem;
+  margin-top: 10rem;
 }
 
+.section-2{
+  /* background: #BDB0BF; */
+  background: #5EBDB2;
+
+  padding: 40px;
+  border-radius: 10px;
+  margin: 5px;
+  font-family: 'Alegreya Sans SC', sans-serif;
+  font-size: 20px;
+
+}
 
 .form-cotizacion{
   background: #A4D6D0;
   /* margin-top: 20px; */
   /* border: 2px dotted black; */
+
   box-shadow: 0 0 10px black ;
+  font-family: 'Noto Sans', sans-serif;
 }
 
 /* @font-face {
@@ -124,12 +155,12 @@ font-weight: bold;
 }
 @media (max-width: 982px){
 	body{
-	font-size: 14px;
+	font-size: 10px;
 	}
 }
 @media (max-width: 768px){
 	body{
-	font-size: 14px;
+	font-size: 10px;
 	}
 }
 
@@ -172,6 +203,8 @@ font-weight: bold;
 
  .letter-white{
    color:white;
+   font-family: 'Anton', sans-serif;
+
  }
 
 
